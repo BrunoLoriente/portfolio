@@ -115,4 +115,48 @@ article div i {
     text-align: center;
 }
 
+@media only screen and (max-width: 768px) {
+    .container {
+        margin: 1.5cm; /* Reduzco el margen en pantallas más pequeñas */
+    }
+
+    header {
+        flex-direction: column; /* Cambio a dirección de columna en lugar de fila */
+        text-align: center;
+    }
+
+    header img {
+        margin-bottom: 10px; /* Agrego espacio entre la imagen y el texto en pantallas pequeñas */
+    }
+
+    .contact {
+        flex-direction: column; /* Cambio a dirección de columna en lugar de fila */
+        text-align: center;
+    }
+
+    .location {
+        margin-left: 0; /* Elimino el margen a la izquierda en pantallas pequeñas */
+    }
+
+    .section {
+        margin-top: 10px; /* Reduzco el espacio en la parte superior de las secciones */
+        margin-bottom: 20px; /* Reduzco el espacio en la parte inferior de las secciones */
+        padding-bottom: 15px;
+    }
+
+    /* ... (otros estilos para pantallas pequeñas) ... */
+
+    .proyectos {
+        display: flex;
+        flex-direction: column; /* Cambio a dirección de columna en lugar de fila */
+        padding-top: 10px;
+        padding-left: 0;
+    }
+
+    .proyectos article {
+        margin-right: 0; /* Elimino el margen derecho en pantallas pequeñas */
+        margin-bottom: 15px; /* Añado espacio entre proyectos en pantallas pequeñas */
+        width: 100%;
+    }
+}
 
