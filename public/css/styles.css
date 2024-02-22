@@ -160,7 +160,7 @@ article div i {
     .proyectos article {
         margin-right: 0; /* Elimino el margen derecho en pantallas pequeñas */
         margin-bottom: 15px; /* Añado espacio entre proyectos en pantallas pequeñas */
-        width: 100%;
+        width: 88%;
     }
 }
 
