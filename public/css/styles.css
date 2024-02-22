@@ -22,11 +22,6 @@ header img {
     margin-right: 10px;
 }
 
-header img:hover {
-    transform: scale(1.9);
-    transition: transform 0.7s ease-in-out;
-}
-
 .contact {
     display: flex;
 }
@@ -91,9 +86,6 @@ section article {
     transition: all 0.5s;
     border-radius: 3%;
 }
-article:hover {
-    box-shadow: 5px 5px 10px rgb(70, 70, 70);
-}
 
 article div i {
     font-size: 24px;
@@ -113,6 +105,18 @@ article div i {
 
 .proyectos article h4 {
     text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+
+    header img:hover {
+        transform: scale(1.9);
+        transition: transform 0.7s ease-in-out;
+    }
+    article:hover {
+        box-shadow: 5px 5px 10px rgb(70, 70, 70);
+    }
+    
 }
 
 @media only screen and (max-width: 768px) {
