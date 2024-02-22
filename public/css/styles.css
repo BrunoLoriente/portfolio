@@ -85,11 +85,11 @@ section article {
     box-shadow: 0px 0px 10px rgba(100, 100, 100, .4);
     transition: all 0.5s;
     border-radius: 3%;
+    text-align: center;
 }
 
 article div i {
     font-size: 24px;
-    margin-left: 110px;
 }
 
 .proyectos {
@@ -134,8 +134,8 @@ article div i {
     }
 
     .contact {
-        flex-direction: column; /* Cambio a dirección de columna en lugar de fila */
-        text-align: center;
+        justify-content: center;/* Cambio a dirección de columna en lugar de fila */
+        
     }
 
     .location {
